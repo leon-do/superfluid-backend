@@ -42,7 +42,7 @@ async function startFlow(_toAddress) {
     callData,
     "0x"
   );
-  console.log(receipt);
+  console.log({flow: "start", receipt});
 
   return receipt.hash;
 }

@@ -24,7 +24,7 @@ async function getFlow() {
   });
 
   const details = await owner.details();
-  return(JSON.stringify(details, null, 2));
+  return JSON.stringify(details, null, 2);
 }
 
 module.exports = getFlow;

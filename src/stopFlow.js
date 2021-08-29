@@ -44,7 +44,7 @@ async function stopFlow(_toAddress) {
     callData,
     "0x"
   );
-  console.log(receipt);
+  console.log({flow: "stop", receipt});
 
   return receipt.hash;
 }
