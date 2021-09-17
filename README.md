@@ -1,7 +1,8 @@
 ## SuperFlow Backend
 
 ```
-Name: YEILD
+Name: EYELN TOKEN
+Symbol: EYELN
 Polygon20: 0x6b0bc2e986b0e70db48296619a96e9ac02c5574b
 
 385802469135802 tokens/second = 1000 tokens/month for a token with 18 decimals
@@ -11,10 +12,14 @@ Polygon20: 0x6b0bc2e986b0e70db48296619a96e9ac02c5574b
 
 ```
 ======== Deploying unmanaged super token ========
-Colon arguments [ '0x6b0bc2e986b0e70db48296619a96e9ac02c5574b', 'YIELDx', 'YEILDx' ]
-Underlying token address 0x6b0bc2e986b0e70db48296619a96e9ac02c5574b
-Super token name YIELDx
-Super token symbol YEILDx
+Colon arguments [
+  '0x7ada91f39731922e5440ee1a386f6cc111df4d0a',
+  'EYELN TOKEN',
+  'EYELNx'
+]
+Underlying token address 0x7ada91f39731922e5440ee1a386f6cc111df4d0a
+Super token name EYELN TOKEN
+Super token symbol EYELNx
 reset token:  false
 chain ID:  137
 protocol release version: v1
@@ -31,12 +36,12 @@ SuperTokenFactory address: 0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34
 ConstantFlowAgreementV1: TruffleContract .agreements.cfa | Helper .cfa 0x6EeE6060f715257b970700bc2656De21dEdF074C
 InstantDistributionAgreementV1: TruffleContract .agreements.ida | Helper .ida 0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1
 Superfluid Framework initialized.
-Underlying token name YEILD
-Underlying token info name() YEILD
-Underlying token info symbol() YEILD
+Underlying token name EYELN TOKEN
+Underlying token info name() EYELN TOKEN
+Underlying token info symbol() EYELN
 Underlying token info decimals() 18
 Creating the wrapper...
-Semi upgrdable super token YEILDx created at 0x11e56B5804215b4048e57123e6E2ee791258d337
-Wrapper created at 0x11e56B5804215b4048e57123e6E2ee791258d337
+Semi upgrdable super token EYELNx created at 0xdF231759FE64b2670357F792f12075A75b81A903
+Wrapper created at 0xdF231759FE64b2670357F792f12075A75b81A903
 ======== Super token deployed ========
 ```
